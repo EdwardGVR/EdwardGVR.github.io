@@ -5,13 +5,13 @@
 	text-align: center;
 }
 body{
-	background-color: #3E52A9;
+	background-color: #0C2079;
 	color: #fff;
 }
 main{
 	height: 500px;
 	width: 100%;
-	background-color: #7095EA;
+	/*background-color: #0A2970;*/
 
 	
 	display: flex;
@@ -29,11 +29,21 @@ main img{
 }
 nav li{
 	display: inline-block;
-	color: #000000;
+	color: #fff;
 	height: 50px;
-	width: 100px;
-	margin: 50px;
-	background-color: #E8E8E8;
-	border-radius: 20px;
+	width: 190px;
+	margin: 20px;
+	background: #000000;
+	border-radius: 0px;
 	line-height: 50px;
+	box-shadow: 0px 5px 2px #fff;
+	font-family: sans-serif;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+nav li:hover{
+	box-shadow: 0px 2px 2px #fff;
+}
+nav a li:active{
+	box-shadow: 0px 0px 0px #fff;	
 }
